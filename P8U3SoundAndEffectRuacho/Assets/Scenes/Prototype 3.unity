@@ -703,6 +703,8 @@ MonoBehaviour:
   gravityModifier: 1.5
   isOnGround: 1
   gameOver: 0
+  doubleJumpUsed: 0
+  doubleJumpForce: 400
 --- !u!65 &891447603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -961,7 +963,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43ef7ad45118964bbff25bde820a7ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 8908600854773711276, guid: 4cc1378c6ad08a340a8888be60eb7a86, type: 3}
+  obstaclePrefabs:
+  - {fileID: 8908600854773711276, guid: 4cc1378c6ad08a340a8888be60eb7a86, type: 3}
+  - {fileID: 7309114348914786021, guid: 2932531b581af2948ba859d63f951b43, type: 3}
+  - {fileID: 61971885761734623, guid: 807ca6f2a66a8fb46a3139ed90759972, type: 3}
+  - {fileID: 5678138631491852178, guid: a577119ca6db685458488a9fca270cc7, type: 3}
 --- !u!4 &1978487326
 Transform:
   m_ObjectHideFlags: 0
